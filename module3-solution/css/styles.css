@@ -1,0 +1,29 @@
+/* ===========================
+   Global Style
+   =========================== */
+body {
+  padding-top: 60px;
+  font-family: Arial, sans-serif;
+}
+
+/* Tall section for scrolling */
+.tall-section {
+  height: 1000px; /* tall enough to require scrolling */
+  background-color: #fafafa;
+  border-top: 2px solid #ccc;
+}
+
+/* Content area inside tall section */
+.content-area {
+  padding: 50px;
+  text-align: center;
+}
+
+/* Optional: Style mobile navbar dropdown */
+@media (max-width: 767px) {
+  .navbar-nav > li > a {
+    background-color: #eee;
+    padding: 12px;
+    font-size: 18px;
+  }
+}
